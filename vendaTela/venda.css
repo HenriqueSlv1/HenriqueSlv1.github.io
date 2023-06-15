@@ -1,0 +1,1507 @@
+body * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pesquisa-home {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+}
+
+.head {
+    display: flex;
+    align-items: center;
+} 
+
+.head a:hover {
+    transition: all ease .3s;
+    color: rgba(32, 168, 231, 0.904);
+}
+
+.div-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.divL {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.divL input[type="text"] {
+    width: 300px;
+    padding-top: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+    padding: 4px;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-left: 120px;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.head {
+    display: block;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista a {
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.imgLogo {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav input[type="text"] {
+    width: 320px;
+    padding: 4px;
+    border: 1px solid rgb(214, 207, 207);
+
+}
+
+.buscar-user {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    gap: 2px;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.buscar-user i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome-espaco select {
+
+    height: 38px;
+    width: 121px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.nome-espaco i {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.usuario-item-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    padding: 5px;
+}
+
+.chek {
+    display: flex;
+}
+
+.teste {
+    font-size: 15px;
+}
+
+.linkk li {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkk input {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nome-espaco {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 71, 129);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.nome-espaco input[type="text"] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.nome-espaco i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sbt {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.submitBtn:hover {
+    transition: all ease .3s;
+    background: rgba(63, 184, 240, 0.822);
+    color: white;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    width: 60px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.submitBtn {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    background-color: rgb(70, 146, 233);
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: monospace;
+    font: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: rgb(65, 65, 65);
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 90%;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(70, 146, 233);
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    height: 550px;
+}
+
+
+.fechar {
+    display: flex;
+    color: #554f4f;
+    justify-content: flex-end;
+    font-size: 28px;
+    /*float: right;*/
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.fechar:hover {
+    color: #5691ff;
+}
+
+/* SECTION SALESMAN-CLIENT */
+.vendedor-cliente {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+
+    font: bolder;
+    padding: 30px;
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 3px;
+}
+
+.vendedor-cliente input[type="text"] {
+    background: white;
+    border-radius: 3px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.vende {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.vl {
+    display: block;
+    flex-direction: column;
+}
+
+.vl h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.vende input {
+    width: 160px;
+    padding: 8px;
+    background: rgb(238, 236, 236);
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.buscar-user .nome-espaco select {
+    display: flex;
+    width: 155px;
+    height: 25px;
+    border: 1px solid rgb(212, 208, 208);
+
+}
+
+.vl .exclusivoB {
+    width: 55px;
+}
+
+.vl button {
+    padding: 5px;
+    width: 85px;
+    background: rgb(162, 255, 69);
+    color: rgb(83, 82, 82);
+    font: bold;
+    border-radius: 7px;
+    border: 2px solid white;
+    font-family: monospace;
+    font: bold;
+}
+
+.vl button:hover {
+    transition: all ease .3s;
+    background: rgba(30, 167, 231, 0.733);
+    box-shadow: 0 0 6px rgb(164, 193, 255);
+    color: white;
+    border: 0px;
+}
+
+
+/* SECTION OPEN ORDERS */
+
+.pedidos-abertos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 8px;
+    border: 2px solid rgb(245, 239, 239);
+    border-radius: 3px;
+    gap: 10px;
+}
+
+.pedidos-abertos h3 {
+    color: rgb(70, 146, 233);
+}
+
+.pedidos-abertos .g {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    padding-top: 5px;
+    gap: 10px;
+}
+
+.pedidos-abertos input[type="text"] {
+    padding: 3px;
+    width: 89px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.pedidos-abertos ul {
+    display: flex;
+}
+
+.pedidos-abertos input[type="submit"] {
+    background: white;
+    padding: 4px;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 5px;
+}
+
+.bt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bt button {
+    padding: 6px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid rgb(245, 239, 239);
+
+}
+
+.bt button:hover {
+    transition: all ease .3s;
+    background: #6cb5e0;
+    color: white;
+    border: 0;
+    box-shadow: 0 0 10px rgba(70, 146, 233);
+
+}
+
+.bt input:hover {
+    color: rgb(0, 0, 0);
+}
+
+.uls-lista ul {
+    width: 90px;
+
+}
+
+.uls-lista li {
+    display: flex;
+
+
+}
+
+.g {
+    display: flex;
+    flex-direction: column;
+}
+
+.fil {
+    display: flex;
+    padding-left: 950px;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+/* SECTION SEARCH ITEM */
+.busca-item {
+    margin-top: 15px;
+    border: 2px solid rgb(245, 239, 239);
+    padding: 5px;
+
+}
+
+.busca-item h3 {
+    padding: 8px;
+    color: rgb(70, 146, 233);
+}
+
+.buscaItem-linhaAcima {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    gap: 16px;
+
+}
+
+.vk input {
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+    width: 120px;
+}
+
+.mae {
+    display: flex;
+    align-items: center;
+}
+
+.selectBuscaItem {
+    display: block;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.selectBuscaItem select {
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+/* SECTION SEARCH ITEM */
+
+.vk {
+    display: block;
+    flex-direction: column;
+}
+
+.vk input[type="text"] {
+    height: 28px;
+    width: 155px;
+}
+
+.vk p {
+    display: flex;
+    padding: 4px;
+}
+
+
+.btnBuscar {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    width: 60px;
+    background-color: rgb(70, 146, 233);
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font: bold;
+}
+
+.btnLimpar {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    width: 60px;
+    background-color: rgb(70, 146, 233);
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font: bold;
+}
+
+.btnBuscarGoogle {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(70, 146, 233);
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font: bold;
+}
+
+.container-modal {
+    display: grid;
+    grid-template-areas: ' headerModal headerModal headerModal1 headerModal1'
+        'serie desconto formaPagamento multiForma'
+        'frete frete adicionais adicionais'
+        'obs obs obs obs';
+    gap: 20px;
+}
+
+.headerModal {
+    grid-area: headerModal;
+}
+
+.headerModal1 {
+    grid-area: headerModal1;
+
+}
+
+.serie {
+    grid-area: serie;
+}
+
+.desconto {
+    grid-area: desconto;
+}
+
+.formaPagamento {
+    grid-area: formaPagamento;
+}
+
+.multiForma {
+    grid-area: multiForma;
+}
+
+.frete {
+    grid-area: frete;
+}
+
+.adicionais {
+    grid-area: adicionais;
+}
+
+.obs {
+    grid-area: obs;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aqui */
+.frete {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.frete h1 {
+    color: rgb(70, 146, 233);
+}
+
+.frete-info {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    gap: 10px;
+}
+
+.adicionais {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 600px;
+}
+
+.adicionais-titulo {
+    color: rgb(70, 146, 233);
+}
+
+.adicionais-info {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+
+}
+
+.adicionais-info input {
+    display: flex;
+    width: 98px;
+}
+
+.obs {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 1110px;
+}
+
+.obs-titulo {
+    color: rgb(70, 146, 233);
+}
+
+.obs .caixas {
+    display: flex;
+    gap: 10px;
+}
+
+.obs .colunaInput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.obs .colunaInput select {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 5px;
+}
+
+/* ate aqui */
+.container-modal {
+    display: grid;
+    grid-template-areas: 'headerModal  headerModal  headerModal  headerModal '
+        'serie desconto formaPagamento multiForma'
+        'frete frete adicionais adicionais'
+        'obs obs obs obs';
+    gap: 10px;
+}
+
+.headerModal {
+    grid-area: headerModal;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 15px;
+    width: 1100;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 5px;
+}
+
+
+
+.headerModalfieldset legend {
+    font-size: 18px;
+}
+
+
+
+.headerModal select {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+    padding: 4px;
+}
+
+.headerModal .grid input {
+    width: 100px;
+    padding: 12px;
+    border: 1px solid gainsboro;
+}
+
+.serie {
+    grid-area: serie;
+    padding: 5px;
+}
+
+.serie select {
+    width: 85px;
+}
+
+.desconto {
+    grid-area: desconto;
+    padding: 5px;
+}
+
+.formaPagamento {
+    grid-area: formaPagamento;
+    padding: 5px;
+}
+
+.formaPagamento input {
+    width: 180px;
+    border: 1px solid rgb(187, 185, 185);
+}
+
+.multiForma {
+    grid-area: multiForma;
+    padding: 5px;
+    width: 260px;
+}
+
+.frete {
+    grid-area: frete;
+    border: 1px solid rgb(185, 176, 176);
+}
+
+.adicionais {
+    grid-area: adicionais;
+    border: 1px solid rgb(192, 184, 184);
+}
+
+.obs {
+    grid-area: obs;
+}
+
+.bg {
+    background-color: #194063;
+    padding: 15px;
+}
+
+.bg p {
+    color: white;
+}
+
+.direction-column {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.direction-column input[type="text"] {
+    width: 90px;
+    border: 1px solid rgb(226, 226, 226);
+    padding-top: 10px;
+}
+
+.direction-column p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(70, 146, 233);
+    font: bold;
+}
+
+legend {
+    color: #58A1C2;
+    font-size: 20px;
+}
+
+fieldset {
+    padding: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 15px;
+}
+
+.borda {
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+
+/*Série*/
+section {
+    margin: 5px;
+}
+
+.serie {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.serie h1 {
+    color: #58A1C2;
+    font-size: 20px;
+}
+
+.serie-info {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serie-info select {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 4px;
+}
+
+.desconto {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+    padding-top: 10px;
+    width: 275px;
+}
+
+.desconto h1 {
+    color: #58A1C2;
+    font-size: 20px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.grid1 input[type="text"] {
+    border: 1px solid rgb(212, 208, 208);
+}
+
+
+/*FORMA PAGAMENTO*/
+
+.formaPagamento {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.formaPagamento-info {
+    padding-top: 10px;
+}
+
+.formaPagamento-info input[type="text"] {
+    height: 20px;
+}
+
+.formaPagamento-info select {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 4px;
+}
+
+/*MULTI-FORMA*/
+.multiForma {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+
+}
+
+
+.multiForma input[type="text"] {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 25px;
+}
+
+
+
+.direction-column {
+
+    padding-top: 25px;
+}
+
+
+.direction-column button {
+    padding: 2px;
+    background-color: #61b8e0;
+    color: white;
+    font: bolder;
+    border-radius: 3px;
+    border: 2px solid rgb(145, 142, 142);
+    display: flex;
+    align-items: center;
+}
+
+.direction-column .flex {
+    display: flex;
+    gap: 5px;
+}
+
+.direction-column .col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*FRETE*/
+
+.frete {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.frete-info select {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 4px;
+}
+
+/*ADICIONAIS*/
+
+.adicionais {
+    display: flex;
+    border: 1px solid rgb(212, 208, 208);
+    gap: 0;
+}
+
+.adicionais-info input {
+
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+/*OBS*/
+.obs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.caixas select {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 4px;
+}
+
+.va {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    padding: 8px;
+}
+
+.va select {
+    background: white;
+    border: 1px solid rgb(212, 208, 208);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.c {
+    display: flex;
+    gap: 15px;
+    margin: 5px;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botoes .btnBuscar {
+    border: 0px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.botoes .btnLimpar {
+    border: 0px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.botoes .btnBuscarGoogle {
+    border: 0px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+
+.botoes button:hover {
+    transition: all ease .3s;
+    background: rgba(63, 184, 240, 0.822);
+    color: rgb(255, 255, 255);
+}
+
+
+/*NOVO MODAL DE CADASTRAR PRODUTO*/
+
+
+
+.modalVende {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: rgb(255, 255, 255);
+}
+
+.modal-content-vende {
+    background-color: rgba(0, 0, 0, 0.527);
+
+    width: 90%;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(70, 146, 233);
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.container-modal-vende {
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.g-vende {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.g-vende label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.g-vende input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.g-vende input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.g {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.g div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.g h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.g input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.g input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.bo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bo button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.bo button:hover {
+    background-color: #0056b3;
+}
+
+.bl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bl input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.bl button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.bl button:hover {
+    background-color: #0056b3;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bot span{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.bot span:read-only {
+    background-color: #f2f2f2;
+}
+
+
+
+.inputDesconto {
+    background-color: white;
+    border: 1px solid rgb(216, 212, 212);
+}
+
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.fechar-vende {
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+}
+
+
+.pedidos-abertos button {
+    padding: 4px;
+    background: white;
+    border: 1px solid rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+.pedidos-abertos button:hover{
+    transition: all ease .3s;
+    background: rgba(30, 167, 231, 0.733);
+    box-shadow: 0 0 6px rgb(164, 193, 255);
+    color: white;
+}
+
+.bot {
+    display: flex;
+    gap: 18px;
+    padding-top: 26px
+}
+
+.bot input {
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    padding: 10px;
+    background: white;
+    border: 2px solid rgb(69, 69, 187);
+}
+
+ .g-vende span{
+    padding-left: 1100px;
+}
+
+
+
+#minhaListaVende {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  #minhaListaVende th {
+
+    background-color: #221e1e;
+    color: #ffffff;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #minhaListaVende td {
+    padding: 8px;
+    border-bottom: 1px solid #2db2e7;
+  }
+  
+  #minhaListaVende tr:hover {
+    background-color: #313131;
+  }
+  
+  #minhaListaVende tr:first-child {
+    border-top: 2px solid #333;
+  }
+  
+  #minhaListaVende th:first-child,
+  #minhaListaVende td:first-child {
+    padding-left: 16px;
+  }
+  
+  #minhaListaVende td:last-child {
+    padding-right: 16px;
+  }
+
+
+  
+  #minhaListaVende th:nth-child(2) {
+    text-align: right;
+  }
+  #minhaListaVende td:nth-child(2) {
+    text-align: right;
+  }
+
+
+
+
+@media (max-width: 450px) {
+    /* MAX WIDTH = TELA MENOR QUE ALGUAM RESOLUÇÃO. POR EXEMPLO
+    QUANDO FOR MENOR QUE 500PX A TELA DELE VAI FICAR VERMELHA.*/
+
+    .divL input[type="text"] {
+        width: 240px;
+    }
+
+    .headerModal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .divL {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-logo .divL input[type="text"] {
+        display: flex;
+        padding: 10px;
+    }
+
+
+    .lista {
+        display: grid;
+        grid-template-columns: 120px 120px;
+        padding: 10px;
+        padding-top: 10px;
+    }
+
+    .lista {
+        font-size: 10px;
+    }
+
+    /*usuario item pesquisa*/
+    .buscar-user {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .nome {
+        display: flex;
+        padding: 20px;
+    }
+
+    .nome-espaco {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .nome-espaco-i {
+        padding-top: 19px;
+    }
+
+    .la {
+        padding: 10px;
+    }
+
+    .buscar-user .sbt {
+        display: flex;
+        padding-top: 48px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*vende*/
+    .vende {
+        display: grid;
+        grid-template-columns: 160px 160px;
+    }
+
+    /*BUSCA ITEM*/
+    .busca-item {
+        gap: 10px;
+    }
+
+    .buscaItem-linhaAcima {
+        display: flex;
+        gap: 10px;
+    }
+
+    .buscaItem-linhaAbaixo {
+        display: flex;
+        gap: 10px;
+    }
+
+    /*modal*/
+    .container-modal {
+        display: flex;
+        grid-template-areas: none;
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 120px 120px;
+
+    }
+
+    .direction-column {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .direction-column .hl {              
+        display: grid;
+        grid-template-columns: 65px 65px;
+    }
+
+    .serie {
+        display: flex;
+        width: 400px;
+    }
+
+
+    .desconto {
+        display: flex;
+        width: 400px;
+    }
+
+    .grid1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .grid1 input[type="text"] {
+        width: 90px;
+        border: 1px solid rgb(212, 208, 208);
+        padding: 4px;
+    }
+
+    .formaPagamento {
+        display: flex;
+        width: 400px;
+    }
+
+    .formaPagamento .grid input[type="text"] {
+        width: 120px;
+        border: 1px solid rgb(212, 208, 208);
+    }
+
+    .multiForma {
+        display: flex;
+        width: 400px;
+    }
+
+    .multiForma input[type="text"] {
+        height: 30px;
+    }
+
+    .frete {
+        display: flex;
+        width: 323px;
+        gap: 10px;
+    }
+
+    .frete select {
+        width: 98px;
+    }
+
+    .adicionais {
+        display: flex;
+        width: 325px;
+    }
+
+    .adicionais input[type="text"] {
+        width: 70px;
+    }
+
+    .obs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+
+    .obs .colunaInput p {
+        padding-top: 10px;
+    }
+
+    .obs .caixas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .g-vende span{
+        display: flex;
+        padding-left: 350px;
+        color: rgb(238, 238, 238);
+    }
+
+    .g-vende span:hover{
+        color: #5691ff;
+    }
+}
